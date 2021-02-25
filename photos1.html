@@ -273,45 +273,45 @@ div {
 <!-- II IMAGE CAROUSEL II -->
 <div class="slideshow-container">
 
-<div class="overexposed">
+<div class="photoshop-images">
     <div class="numbertext">1 / 5</div>
-    <img src="riley1.jpg" style="width:100%">
+    <img src="overexposed.jpg" style="width:100%">
     <div class="text">Over-exposed picture: BEFORE</div>
   </div>
 
-  <div class="overexposed-after">
+  <div class="photoshop-images">
     <div class="numbertext">2 / 5</div>
-    <img src="riley2.jpg" style="width:100%">
+    <img src="overexposed-after.jpg" style="width:100%">
     <div class="text">Over-exposed picture: AFTER</div>
   </div>
 
-  <div class="underexposed">
+  <div class="photoshop-images">
     <div class="numbertext">3 / 5</div>
-    <img src="riley3.jpg" style="width:100%">
+    <img src="underexposed.jpg" style="width:100%">
     <div class="text">Under-exposed picture: BEFORE</div>
   </div>
 
-  <div class="underexposed-after">
+  <div class="photoshop-images">
     <div class="numbertext">4 / 5</div>
-    <img src="riley4.jpg" style="width:100%">
+    <img src="underexposed-after.jpg" style="width:100%">
     <div class="text">Under-exposed picture: AFTER</div>
   </div>
 
-<div class="banner">
+<div class="photoshop-images">
     <div class="numbertext">5 / 5</div>
-    <img src="riley5.jpg" style="width:100%">
+    <img src="banner.jpg" style="width:100%">
     <div class="text">BANNER</div>
   </div>
 
-  <div class="JD16by9">
+  <div class="photoshop-images">
     <div class="numbertext">6 / 7</div>
-    <img src="riley5.jpg" style="width:100%">
+    <img src="JD16by9.jpg" style="width:100%">
     <div class="text">16:9 group picture</div>
   </div>
 
-  <div class="weirdcreative">
+  <div class="photoshop-images">
     <div class="numbertext">7 / 7</div>
-    <img src="riley5.jpg" style="width:100%">
+    <img src="weirdcreative.jpg" style="width:100%">
     <div class="text">Creative image</div>
   </div>
 
@@ -379,14 +379,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// CAROUSEL 2
+  // CAROUSEL 2
 
 var slideIndex = 1;
 showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("riley-images");
+  var slides = document.getElementsByClassName("photoshop-images");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -411,7 +411,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("riley-images");
+  var slides = document.getElementsByClassName("photoshop-images");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
