@@ -6,8 +6,6 @@
 		<meta name="viewport" content="width=1000, initial-scale=1.0" />
 		<title>Nicole's Homepage for Journalism Design Toolkit</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" /> 
-    <script src="javascript.js"></script>
-
 
 	</head>
 
@@ -33,6 +31,15 @@
     </ul>
         </center>
 </div>
+<script>
+$('ul li a').hover(function() {
+     var x = $(this);
+     $('.menuUnderline').stop().animate({
+        'width': x.width(),
+        'left' : x.position().left
+     }, 400);
+}); 
+</script>
 
 		<a href="https://journalismdesign.com/">
 			<center><img class="logo" src="jd-logo.svg" width="300" height="150"></center>
