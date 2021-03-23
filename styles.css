@@ -37,23 +37,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-
-    /* SLIDESHOW */
-
-#slideshow {
-  margin: 80px auto;
-  position: relative;
-  width: 340px;
-  height: 340px;
-  padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-
-#slideshow > div {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-}
