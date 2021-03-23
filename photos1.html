@@ -10,16 +10,30 @@
 	</head>
 
 	<body>
+
+    <script>
+   // CAROUSEL
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
+</script>
+
 		<div><a href="index.html">back</a></div>
-		<center><h1 class="main-hed">Riley the dog</h1></center>
+		<center><h1 class="main-hed">Photo dump</h1></center>
 
 	<p>
 		Enjoy my 2 photo dumps :)  
 	</p>
 
-<h1>Photo Dump</h1>
 
-<!-- IMAGE CAROUSEL -->
+<!-- SLIDESHOW -->
 <div id="slideshow">
    <div>
      <img src="riley1.jpg">
@@ -37,9 +51,7 @@
      <img src="riley5.jpg">
    </div>
 
-<h1>Photo Dump 2</h1>
 
-<!-- II IMAGE CAROUSEL II -->
    <div>
      <img src="overexposed.jpg">
    </div>
@@ -61,19 +73,6 @@
    <div>
      <img src="weirdcreative.jpg">
    </div>
-<script>
-   // CAROUSEL
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 3000);
-</script>
 </body>
 
 </html>

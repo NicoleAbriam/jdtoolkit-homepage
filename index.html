@@ -12,6 +12,17 @@
 <!-- This is a comment. I'm not sure where to put it so here you go -->
 
 	<body>
+
+        <script>
+$('ul li a').hover(function() {
+     var x = $(this);
+     $('.menuUnderline').stop().animate({
+        'width': x.width(),
+        'left' : x.position().left
+     }, 400);
+}); 
+</script>
+
 <center><img class="logo" src="illustratorlogo.svg" width="600" height="500">
 </center>
 		<center><div><h1 class="main-hed">Nicole's Page</h1></div></center>
@@ -31,15 +42,6 @@
     </ul>
         </center>
 </div>
-<script>
-$('ul li a').hover(function() {
-     var x = $(this);
-     $('.menuUnderline').stop().animate({
-        'width': x.width(),
-        'left' : x.position().left
-     }, 400);
-}); 
-</script>
 
 		<a href="https://journalismdesign.com/">
 			<center><img class="logo" src="jd-logo.svg" width="300" height="150"></center>
