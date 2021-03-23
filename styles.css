@@ -16,7 +16,7 @@ h1 {
 
 p, ul {
     font-family: "Helvetica Neue", serif;
-    color: #497335;
+    color: #8B4513;
     max-width: 30em;
     width: 100%;
     text-align: left;
@@ -77,8 +77,8 @@ ul li a {
 #slideshow {
   margin: 80px auto;
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 340px;
+  height: 340px;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
@@ -94,8 +94,8 @@ ul li a {
 #slideshow2 {
   margin: 80px auto;
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: 500px;
+  height: 500px;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
