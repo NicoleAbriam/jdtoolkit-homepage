@@ -1,5 +1,5 @@
 
-// TAB 
+// MENU 
 $('ul li a').hover(function() {
      var x = $(this);
      $('.menuUnderline').stop().animate({
