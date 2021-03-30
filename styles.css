@@ -47,7 +47,7 @@ body
   padding: 0;
   
   /* make it look decent enough */
-  background: #e6add47a;
+  background: #fbf4f4;
   color: #ffffff;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
@@ -169,7 +169,7 @@ body
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #fbf4f4;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
