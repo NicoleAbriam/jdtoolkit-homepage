@@ -40,7 +40,7 @@ img {
 
 /* MENU */
 
-.menu {background:#00a; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
+.menu {background:#000; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
 .content {margin-top:10px;}
 .menu-padding {padding-top:40px;}
 .content {padding:10px;}
