@@ -3,6 +3,8 @@
 body {
     background-color: #e6add47a;
     margin: 1em auto;
+    top: 50px
+    bottom: 50px;
     font-size: 15px;
     padding: 1em;
     text-align: center;
