@@ -38,21 +38,21 @@ function stickIt() {
 
 // clone
 
-$('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+$('.menu').addClass('cloned').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 
 scrollIntervalID = setInterval(stickIt, 10);
 
 
 function stickIt() {
 
-  var orgElementPos = $('.original').offset();
+  var orgElementPos = $('.cloned').offset();
   orgElementTop = orgElementPos.top;               
 
   if ($(window).scrollTop() >= (orgElementTop)) {
     // scrolled past the original position; now only show the cloned, sticky element.
 
     // Cloned element should always have same left position and width as original element.     
-    orgElement = $('.original');
+    orgElement = $('.cloned');
     coordsOrgElement = orgElement.offset();
     leftOrgElement = coordsOrgElement.left;  
     widthOrgElement = orgElement.css('width');

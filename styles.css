@@ -12,6 +12,8 @@ body {
 h1 {
     color: #ffffff;
     font-size: 3em;
+    text-align: center;
+
 }
 
 p, ul {
